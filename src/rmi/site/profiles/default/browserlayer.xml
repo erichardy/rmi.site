@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+      name="rmi.site"
+      interface="rmi.site.interfaces.IRmiSiteLayer"
+      />
+</layers>
