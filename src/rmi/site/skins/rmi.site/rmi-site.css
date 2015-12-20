@@ -1,0 +1,17 @@
+
+body.rmi {
+    background-color: tranparent;
+}
+
+body.rmi .label, .badge {
+	color: black;
+	background-color: tranparent !important;
+	text-shadow: none;
+}
+
+body.rmi div.navbar,
+body.rmi div.navbar-fixed-top,
+body.rmi div.navbar-inner {
+	background-color: green;
+	background-image: none;
+}
