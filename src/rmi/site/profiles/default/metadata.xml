@@ -2,5 +2,9 @@
 <metadata>
   <version>1000</version>
   <dependencies>
+  <dependency>profile-plonesocial.theme:default</dependency>
+  <dependency>profile-collective.cover:default</dependency>
+  <dependency>profile-collective.geo.bundle:default</dependency>
+  <dependency>profile-Products.PloneFormGen:default</dependency>
   </dependencies>
 </metadata>
