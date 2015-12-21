@@ -71,6 +71,7 @@ setup(
         # 'collective.js.bootstrap==3.3.6',
         'flickrapi==1.4.5',
         'plone.app.drafts==1.0a2',
+        'webcouturier.dropdownmenu==2.3.1',
     ],
     extras_require={
         'test': [

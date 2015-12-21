@@ -1,17 +1,25 @@
-
-body.rmi {
-    background-color: tranparent;
+body.rmi .label,
+body.rmi .badge {
+  color: black;
+  background-color: tranparent !important;
+  text-shadow: none;
 }
-
-body.rmi .label, .badge {
-	color: black;
-	background-color: tranparent !important;
-	text-shadow: none;
-}
-
 body.rmi div.navbar,
 body.rmi div.navbar-fixed-top,
 body.rmi div.navbar-inner {
-	background-color: green;
-	background-image: none;
+  background-color: #800080;
+  background-image: none;
+}
+body.rmi #topnav-collapse ul#nav li a {
+  color: white;
+}
+body.rmi #topnav-collapse ul#nav li.active a {
+  background-color: #32CD32;
+}
+#center-column {
+  padding-left: 150px;
+}
+#left-column-content {
+  position: fixed;
+  top: 230px;
 }
