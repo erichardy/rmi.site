@@ -5,5 +5,11 @@
     enabled="True" expression=""
     id="rmi-site.js" inline="False"/>
 
+ <!-- http://stackoverflow.com/questions/9765098/plone-and-twitter-bootstrap
+      https://github.com/CWSpear/bootstrap-hover-dropdown
+  -->
+ <javascript cacheable="True" compression="none" cookable="True"
+    enabled="False" expression=""
+    id="bootstrap-hover-dropdown.js" inline="False"/>
  
 </object>

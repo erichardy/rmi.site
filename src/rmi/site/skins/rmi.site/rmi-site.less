@@ -20,9 +20,14 @@ body.rmi {
     }
     #topnav-collapse ul#nav {
         li.active a {
-          background-color: #32CD32;
+          background-color: @navbar-bg-color;
         }
     }
+    /*
+    a[aria-expanded="false"] {
+        background-color: @navbar-bg-color;
+    }
+    */
 }
 
 #center-column {
@@ -32,3 +37,10 @@ body.rmi {
     position: fixed;
     top: 230px;
 }
+
+/*
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;    
+}
+* 
+*/

@@ -1,3 +1,10 @@
+body.rmi {
+  /*
+    a[aria-expanded="false"] {
+        background-color: @navbar-bg-color;
+    }
+    */
+}
 body.rmi .label,
 body.rmi .badge {
   color: black;
@@ -23,3 +30,9 @@ body.rmi #topnav-collapse ul#nav li.active a {
   position: fixed;
   top: 230px;
 }
+/*
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;    
+}
+* 
+*/
