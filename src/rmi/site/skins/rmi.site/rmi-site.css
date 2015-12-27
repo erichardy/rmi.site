@@ -1,4 +1,5 @@
 body.rmi {
+  /* pour la saisie des titres */
   /*
     a[aria-expanded="false"] {
         background-color: @navbar-bg-color;
@@ -48,6 +49,9 @@ body.rmi {
     }
     */
 }
+body.rmi a.brand {
+  display: none;
+}
 body.rmi .label,
 body.rmi .badge {
   color: black;
@@ -63,8 +67,33 @@ body.rmi div.navbar-inner {
 body.rmi #topnav-collapse ul#nav li a {
   color: white;
 }
-body.rmi #topnav-collapse ul#nav li.active a {
+body.rmi #topnav-collapse ul#nav li a:hover {
+  color: white;
+  background-color: grey;
+}
+body.rmi #topnav-collapse ul#nav li a.state-published {
+  color: black;
+}
+body.rmi .dropdown-menu {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+body.rmi #topnav-collapse ul#nav {
+  /* les <li> dans les sous-menus */
+  /* seulement l'entete dans la barre de nav */
+}
+body.rmi #topnav-collapse ul#nav li.active a,
+body.rmi #topnav-collapse ul#nav li.active {
   background-color: #32CD32;
+}
+body.rmi #topnav-collapse ul#nav .nav-active {
+  background-color: #32CD32;
+}
+body.rmi input[name="title"] {
+  height: 28px;
+}
+body.rmi .ui-widget-content a {
+  color: black;
 }
 /*
 #center-column {

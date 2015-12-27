@@ -28,7 +28,8 @@ $(document).ready(function() {
         var headMenu = $(this);
         $(this).find("a").each(function(){
             if (url == $(this).attr("href")) {
-                headMenu.addClass("active");
+                $(this).parent().addClass("active");
+                headMenu.addClass("nav-active");
             };
         });
     });

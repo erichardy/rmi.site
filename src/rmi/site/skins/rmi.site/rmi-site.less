@@ -1,27 +1,59 @@
 
-@navbar-bg-color: #32CD32;
+@general-text-color: black;
+@navbar-bg-color: #800080;
+@navbar-active-bg-color: #32CD32;
 @navbar-color: white;
+@navbar-menu-hover: grey;
+@navbar-menu-color: white;
 
 body.rmi {
+    a.brand {
+        display: none;
+    }
     .label, .badge {
-      color: black;
+      color: @general-text-color;
       background-color: tranparent !important;
       text-shadow: none;
     }
     div.navbar,
     div.navbar-fixed-top,
     div.navbar-inner {
-      background-color: #800080;
+      background-color: @navbar-bg-color;
       background-image: none;
     }
     
     #topnav-collapse ul#nav li a {
-        color: white;
+        color: @navbar-menu-color;
+    }
+    
+    #topnav-collapse ul#nav li a:hover {
+        color: @navbar-menu-color;
+        background-color: @navbar-menu-hover;
+    }
+    #topnav-collapse ul#nav li a.state-published {
+        color: @general-text-color;
+    }
+    .dropdown-menu {
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
     #topnav-collapse ul#nav {
-        li.active a {
-          background-color: @navbar-bg-color;
+        /* les <li> dans les sous-menus */
+        li.active a,
+        li.active {
+          background-color: @navbar-active-bg-color;
         }
+        /* seulement l'entete dans la barre de nav */
+        .nav-active {
+          background-color: @navbar-active-bg-color;
+        }
+    }
+    /* pour la saisie des titres */
+    input[name="title"] {
+        height: 28px;
+    }
+    .ui-widget-content a {
+        color: @general-text-color;
     }
     /*
     a[aria-expanded="false"] {
