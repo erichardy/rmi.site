@@ -97,7 +97,7 @@ setup(
         'collective.ptg.contactsheet==1.1.2',
         'collective.ptg.carousel==0.2.2',
         'collective.ptg.galleryimage==1.0',
-        'plone.app.multilingual==2.0.0'
+        'plone.app.multilingual==2.0.0',
     ],
     extras_require={
         'test': [
