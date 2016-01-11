@@ -24,7 +24,9 @@ $(document).ready(function() {
             };
     });
     */
-    $("ul#nav .dropdown").each(function(){
+    
+    
+    $(".rmi ul#nav .dropdown").each(function(){
         var headMenu = $(this);
         $(this).find("a").each(function(){
             if (url == $(this).attr("href")) {
@@ -33,4 +35,17 @@ $(document).ready(function() {
             };
         });
     });
+    
 });
+
+/*
+$(document).ready(function() {
+
+    $("li.dropdown.pull-right").click(function(event){
+        event.preventDefault();
+        // $(this).parent().addClass('open');
+        alert($(this));
+    });
+
+});
+*/

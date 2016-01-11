@@ -1,4 +1,6 @@
-/* couleur de la petite fleche quand une rubrique a des descendants */
+/* couleur de la petite fleche quand une rubrique a des descendants
+ * dans la nav bar
+ */
 /* */
 body.rmi {
   /* pour la saisie des titres */
@@ -95,6 +97,7 @@ body.rmi #topnav-collapse ul#nav li.active {
 body.rmi #topnav-collapse ul#nav .nav-active {
   background-color: #32CD32;
 }
+body.rmi input[name="form.widgets.IDublinCore.title"],
 body.rmi input[name="title"] {
   height: 28px;
 }
