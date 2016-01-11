@@ -6,6 +6,12 @@
 @navbar-menu-hover: grey;
 @navbar-menu-color: white;
 
+/* couleur de la petite fleche quand une rubrique a des descendants */
+@caret-border-top-color: red;
+@caret-opacity: 1;
+/* */
+
+
 body.rmi {
     a.brand {
         display: none;
@@ -20,6 +26,12 @@ body.rmi {
     div.navbar-inner {
       background-color: @navbar-bg-color;
       background-image: none;
+    }
+    div.navbar {
+        .caret {
+            opacity: @caret-opacity;
+            border-top-color: @caret-border-top-color !important;
+        }
     }
     
     #topnav-collapse ul#nav li a {

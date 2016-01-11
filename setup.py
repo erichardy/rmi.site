@@ -46,7 +46,7 @@ setup(
         'plone.api',
         'setuptools',
         'z3c.jbot',
-        'plonesocial.theme==0.5.4',
+        'plonesocial.theme',
         'wildcard.foldercontents==1.3.2',
         'Products.PloneFormGen==1.7.17',
         'collective.geo.mapwidget==2.3',

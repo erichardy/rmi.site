@@ -1,3 +1,5 @@
+/* couleur de la petite fleche quand une rubrique a des descendants */
+/* */
 body.rmi {
   /* pour la saisie des titres */
   /*
@@ -63,6 +65,10 @@ body.rmi div.navbar-fixed-top,
 body.rmi div.navbar-inner {
   background-color: #800080;
   background-image: none;
+}
+body.rmi div.navbar .caret {
+  opacity: 1;
+  border-top-color: red !important;
 }
 body.rmi #topnav-collapse ul#nav li a {
   color: white;
