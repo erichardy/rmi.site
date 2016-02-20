@@ -1,20 +1,36 @@
-
+/* original
 @general-text-color: black;
 @navbar-bg-color: #800080;
 @navbar-active-bg-color: #32CD32;
 @navbar-color: white;
 @navbar-menu-hover: grey;
 @navbar-menu-color: white;
-
+*/
+@general-text-color: black;
+@navbar-bg-color: #800080;
+@navbar-active-bg-color: #32CD32;
+@navbar-color: white;
+@navbar-menu-hover: @navbar-active-bg-color;
+@navbar-menu-color: white;
 /* couleur de la petite fleche quand une rubrique a des descendants
  * dans la nav bar
  */
 @caret-border-top-color: red;
 @caret-opacity: 1;
 /* */
-
+/* Tables */
+@tr-odd-bg: #dddddd;
+@tr-odd-bg-hover: #EEEEEE;
+@tr-even-bg: #F5F5F5;
+@tr-even-bg-hover: #F9F9F9;
 
 body.rmi {
+    #content {
+        font-size: 16px;
+    }
+    h1.documentFirstHeading {
+        display: none;
+    }
     a.brand {
         display: none;
     }
@@ -23,6 +39,29 @@ body.rmi {
       background-color: tranparent !important;
       text-shadow: none;
     }
+    /* tables */
+    table.center {
+      margin-left:auto; 
+      margin-right:auto;
+    }
+    table.noborder {
+      border: none !important;
+    }
+    table.odd-even {
+        tr:nth-child(odd) {
+            background: @tr-odd-bg;
+            }
+        tr:nth-child(odd):hover {
+            background: @tr-odd-bg-hover;
+            }
+        tr:nth-child(even) {
+            background: @tr-even-bg;
+        }
+        tr:nth-child(even):hover {
+            background: @tr-even-bg-hover;
+        }
+    }
+    /* Navbar */
     div.navbar,
     div.navbar-fixed-top,
     div.navbar-inner {

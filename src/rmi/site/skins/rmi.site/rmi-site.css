@@ -1,8 +1,19 @@
+/* original
+@general-text-color: black;
+@navbar-bg-color: #800080;
+@navbar-active-bg-color: #32CD32;
+@navbar-color: white;
+@navbar-menu-hover: grey;
+@navbar-menu-color: white;
+*/
 /* couleur de la petite fleche quand une rubrique a des descendants
  * dans la nav bar
  */
 /* */
+/* Tables */
 body.rmi {
+  /* tables */
+  /* Navbar */
   /* pour la saisie des titres */
   /*
     a[aria-expanded="false"] {
@@ -53,6 +64,12 @@ body.rmi {
     }
     */
 }
+body.rmi #content {
+  font-size: 16px;
+}
+body.rmi h1.documentFirstHeading {
+  display: none;
+}
 body.rmi a.brand {
   display: none;
 }
@@ -61,6 +78,25 @@ body.rmi .badge {
   color: black;
   background-color: tranparent !important;
   text-shadow: none;
+}
+body.rmi table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+body.rmi table.noborder {
+  border: none !important;
+}
+body.rmi table.odd-even tr:nth-child(odd) {
+  background: #dddddd;
+}
+body.rmi table.odd-even tr:nth-child(odd):hover {
+  background: #EEEEEE;
+}
+body.rmi table.odd-even tr:nth-child(even) {
+  background: #F5F5F5;
+}
+body.rmi table.odd-even tr:nth-child(even):hover {
+  background: #F9F9F9;
 }
 body.rmi div.navbar,
 body.rmi div.navbar-fixed-top,
@@ -77,7 +113,7 @@ body.rmi #topnav-collapse ul#nav li a {
 }
 body.rmi #topnav-collapse ul#nav li a:hover {
   color: white;
-  background-color: grey;
+  background-color: #32CD32;
 }
 body.rmi #topnav-collapse ul#nav li a.state-published {
   color: black;
