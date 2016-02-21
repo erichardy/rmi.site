@@ -35,7 +35,11 @@ $(document).ready(function() {
             };
         });
     });
-    
+
+    $('a.overlay').prepOverlay({
+         subtype: 'ajax',
+         filter: '#content > *',
+        });
 });
 
 /*

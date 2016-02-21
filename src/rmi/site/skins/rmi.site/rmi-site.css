@@ -11,6 +11,9 @@
  */
 /* */
 /* Tables */
+body#plonebrowser div.radioscrolllist div.list input {
+  margin: 5px 0px 0px 0px !important;
+}
 body.rmi {
   /* tables */
   /* Navbar */
