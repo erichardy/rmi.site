@@ -98,7 +98,7 @@ setup(
         'collective.ptg.carousel==0.2.2',
         'collective.ptg.galleryimage==1.0',
         'plone.app.multilingual==2.0.0',
-        'collective.abcmusic',
+        # 'collective.abcmusic',
     ],
     extras_require={
         'test': [
