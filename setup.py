@@ -59,7 +59,7 @@ setup(
         'geopy==1.9.1',
         'collective.geo.geographer==2.0',
         'pygeoif==0.4.1',
-        'collective.z3cform.colorpicker==1.2',
+        # 'collective.z3cform.colorpicker==1.2',
         'quintagroup.plonecaptchas==4.2',
         'quintagroup.pfg.captcha==1.0.5',
         'collective.cover==1.0a12',
